@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="loginstyle.css">
+    <meta charset="UTF-8">
+    <title>Sign Up | Biblioteca Online</title>
+</head>
+<body>
+<!--Top-Bar Menu-->
+<div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+        <div class="w3-col s3">
+            <a href="home-page.html" class="w3-button w3-block w3-black">ACASA</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="carti.html" class="w3-button w3-block w3-black">CARTI</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="contact.html" class="w3-button w3-block w3-black">CONTACT</a>
+        </div>
+        <div class="w3-col s3">
+            <a href = "login.html" class ="w3-button w3-block w3-black">LOGIN / SIGN-UP</a>
+        </div>
+    </div>
+</div>
+
+<div id="signup">
+
+
+    <form class="modal-content animate" action="/action_page.php" method="post">
+        <h2>Inregistreaza un nou utilizator</h2>
+        <div class="container">
+            <label for = "email">Email</label>
+            <input type="email" placeholder="Introdu email" required>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Introdu Username" name="uname" required>
+
+            <label for="psw"><b>Parola</b></label>
+            <input type="password" placeholder="Introdu Parola" name="psw" required>
+
+            <input type="password" placeholder="Re-introdu Parola" name="psw" required>
+
+            <button type="submit">Register</button>
+
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
