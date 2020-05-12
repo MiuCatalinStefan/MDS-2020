@@ -57,6 +57,41 @@ body, html {
 
 <div><span>cartile din biblioteca</span></div>
 
+<section id="boxes">
+    <div class="container">
+      <figure class="box">
+        <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
+        <figcaption>Nume Carte</figcaption>
+        <figcaption>Pret</figcaption>
+      </figure>
+      <figure class="box">
+        <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
+        <figcaption>Nume Carte</figcaption>
+        <figcaption>Pret</figcaption>
+      </figure>
+      <figure class="box">
+        <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
+        <figcaption>Nume Carte</figcaption>
+        <figcaption>Pret</figcaption>
+      </figure>
+      <figure class="box">
+        <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
+        <figcaption>Nume Carte</figcaption>
+        <figcaption>Pret</figcaption>
+      </figure>
+      <figure class="box">
+        <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
+        <figcaption>Nume Carte</figcaption>
+        <figcaption>Pret</figcaption>
+      </figure>
+      <figure class="box">
+        <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
+        <figcaption>Nume Carte</figcaption>
+        <figcaption>Pret</figcaption>
+      </figure>
+    </div>
+  </section>
+
 
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
