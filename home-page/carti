@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="C:\Users\User\Desktop\mds\css.css">
 <style>
 body, html {
   height: 100%;
@@ -55,42 +56,42 @@ body, html {
   </div>
 </header>
 
-<div><span>cartile din biblioteca</span></div>
-
 <section id="boxes">
     <div class="container">
       <figure class="box">
         <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
-        <figcaption>Nume Carte</figcaption>
-        <figcaption>Pret</figcaption>
+        <figcaption><a href="book_page.html">Nume Carte</a></figcaption>
+        <figcaption><a href="book_page.html">Pret</a></figcaption>
       </figure>
       <figure class="box">
         <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
-        <figcaption>Nume Carte</figcaption>
-        <figcaption>Pret</figcaption>
+        <figcaption><a href="book_page.html">Nume Carte</a></figcaption>
+        <figcaption><a href="book_page.html">Pret</a></figcaption>
       </figure>
       <figure class="box">
         <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
-        <figcaption>Nume Carte</figcaption>
-        <figcaption>Pret</figcaption>
+        <figcaption><a href="book_page.html">Nume Carte</a></figcaption>
+        <figcaption><a href="book_page.html">Pret</a></figcaption>
       </figure>
       <figure class="box">
         <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
-        <figcaption>Nume Carte</figcaption>
-        <figcaption>Pret</figcaption>
+        <figcaption><a href="book_page.html">Nume Carte</a></figcaption>
+        <figcaption><a href="book_page.html">Pret</a></figcaption>
       </figure>
       <figure class="box">
         <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
-        <figcaption>Nume Carte</figcaption>
-        <figcaption>Pret</figcaption>
+        <figcaption><a href="book_page.html">Nume Carte</a></figcaption>
+        <figcaption><a href="book_page.html">Pret</a></figcaption>
       </figure>
       <figure class="box">
         <img src="C:\Users\User\Desktop\mds\imgs\carti.jpg" style="width: 200px; height: 200px;">
-        <figcaption>Nume Carte</figcaption>
-        <figcaption>Pret</figcaption>
+        <figcaption><a href="book_page.html">Nume Carte</a></figcaption>
+        <figcaption><a href="book_page.html">Pret</a></figcaption>
       </figure>
     </div>
   </section>
+
+<div><span>cartile din biblioteca</span></div>
 
 
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
