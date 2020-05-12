@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+    body, html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+    
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image:url("library.png");
+      min-height: 75%;
+    }
+    
+    .menu {
+      display: none;
+    }
+</style>
+<body>
+<div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="#" class="w3-button w3-block w3-black">ACASA</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="carti.html" class="w3-button w3-block w3-black">CARTI</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="contact.html" class="w3-button w3-block w3-black">CONTACT</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#where" class="w3-button w3-block w3-black">SIGN UP</a>
+      </div>
+    </div>
+  </div>
+  
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+      <span class="w3-tag">Open from 6am to 5pm</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-white" style="font-size:90px">The Great<br>Library</span>
+    </div>
+    <div class="w3-display-bottomright w3-center w3-padding-large">
+      <span class="w3-text-white">15 Adr street, 5015</span>
+    </div>
+  </header>
+
+  <div class="w3-sand w3-grayscale w3-large"></div>
+  
+  <div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">"Titlul Cartii"<br> de ...</span></h5>
+      <p>Detalii generale cum ar fi autor,curent in care se incadreaza anul publicarii etc.</p>
+      <p><strong>Availability:</strong> Avem "n" bucati in stoc!</p>
+      <p><button class="w3-button w3-black" type="submit">REZERVA ONLINE</button></p>
+    </div>
+  </div>
+  <!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+    <div class="w3-content" style="max-width:700px">
+        <p>Pentru lectorii noi, am pregatit o sectie de review-uri in care acestia pot citi recenziile celor care au citit cartea de mai sus. Va invitam sa ne lasati mesajele voastre!</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nume" required name="Nume"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Review" required name="Review"></p>
+          <p><button class="w3-button w3-black" type="submit">SEND</button></p>
+        </form>
+    </div>
+    </div>    
+    
+  </div>
+</body>
+</html>
