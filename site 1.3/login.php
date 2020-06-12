@@ -26,7 +26,7 @@
                 <?php
                 if(isset($_GET['error'])) {
                     if ($_GET['error'] == 'sqlCode') {
-                        echo "<p style='text-align: center; color: red'> Va rugam sa nu incercati sa scrieti cod SQL in field-uri! </p>";
+                        echo "<p style='text-align: center; color: red'> Eroare baza de date! </p>";
                     } else if ($_GET['error'] == 'noUser') {
                         echo "<p style='text-align: center; color: red'> Acest username nu apartine niciunui utilizator! </p>";
                     } else if ($_GET['error'] == 'wrongPassword') {

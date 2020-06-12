@@ -27,7 +27,7 @@
                 if ($_GET['error'] == 'unmatchedPasswords') {
                     echo "<p style='text-align: center; color: red'> Passwords don't match! </p>";
                 } else if ($_GET['error'] == 'sqlCode') {
-                    echo "<p style='text-align: center; color: red'> Va rugam sa nu incercati sa scrieti cod SQL in field-uri! </p>";
+                    echo "<p style='text-align: center; color: red'> Eroare baza de date! </p>";
                 } else if ($_GET['error'] == 'usernameTaken') {
                     echo "<p style='text-align: center; color: red'> Acest username este deja folosit </p>";
                 }
