@@ -31,8 +31,10 @@
                 } else if ($_GET['error'] == 'usernameTaken') {
                     echo "<p style='text-align: center; color: red'> This username is already taken! </p>";
                 }
-            } else if ($_GET['error'] == 'success') {
-                echo "<p style='text-align: center; color: green'> Sign up successful! </p>";
+            } else if (isset($_GET['signup'])) {
+                if ($_GET['signup'] == 'success') {
+                    echo "<p style='text-align: center; color: green'> Sign up successful! </p>";
+                }
             }
             ?>
 

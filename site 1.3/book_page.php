@@ -51,14 +51,25 @@
     $resultCheck = mysqli_num_rows($result);
     if ($resultCheck > 0) {
       $row = mysqli_fetch_assoc($result);
-      echo '<div class="w3-container" id="about">
+      if (isset($_SESSION['userId'])) {
+        echo '<div class="w3-container" id="about">
               <div class="w3-content" style="max-width:700px">
-                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">'.$row['name'].'</span></h5>
-                <p>'.$row['description'].'</p>
-                <p><strong>Availability:</strong> Avem '.$row['pieces'].' bucati in stoc!</p>
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">' . $row['name'] . '</span></h5>
+                <p>' . $row['description'] . '</p>
+                <p><strong>Availability:</strong> Avem ' . $row['pieces'] . ' bucati in stoc!</p>
                 <p><button onclick = "alert(\'Rezervare efectuata pe numele dumneavoastra!\')" class="w3-button w3-black" type="submit">REZERVA ONLINE</button></p>
               </div>
             </div>';
+      } else {
+        echo '<div class="w3-container" id="about">
+              <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">' . $row['name'] . '</span></h5>
+                <p>' . $row['description'] . '</p>
+                <p><strong>Availability:</strong> Avem ' . $row['pieces'] . ' bucati in stoc!</p>
+                <p><button onclick = "alert(\'Pentru a face o rezervare trebuie sa va logati!\')" class="w3-button w3-black" type="submit">REZERVA ONLINE</button></p>
+              </div>
+            </div>';
+      }
     } else {
       header("Location: carti.php");
     }
