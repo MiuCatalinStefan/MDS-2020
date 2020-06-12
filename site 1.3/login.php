@@ -26,11 +26,11 @@
                 <?php
                 if(isset($_GET['error'])) {
                     if ($_GET['error'] == 'sqlCode') {
-                        echo "<p style='text-align: center; color: red'> Please don't try to write any SQL code here! </p>";
+                        echo "<p style='text-align: center; color: red'> Va rugam sa nu incercati sa scrieti cod SQL in field-uri! </p>";
                     } else if ($_GET['error'] == 'noUser') {
-                        echo "<p style='text-align: center; color: red'> User doesn't exist! </p>";
+                        echo "<p style='text-align: center; color: red'> Acest username nu apartine niciunui utilizator! </p>";
                     } else if ($_GET['error'] == 'wrongPassword') {
-                        echo "<p style='text-align: center; color: red'> Wrong password! </p>";
+                        echo "<p style='text-align: center; color: red'> Parola gresita! </p>";
                     }
                 }
                 ?>

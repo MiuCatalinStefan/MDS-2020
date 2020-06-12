@@ -27,13 +27,13 @@
                 if ($_GET['error'] == 'unmatchedPasswords') {
                     echo "<p style='text-align: center; color: red'> Passwords don't match! </p>";
                 } else if ($_GET['error'] == 'sqlCode') {
-                    echo "<p style='text-align: center; color: red'> Please do not try writing SQL code in any field! </p>";
+                    echo "<p style='text-align: center; color: red'> Va rugam sa nu incercati sa scrieti cod SQL in field-uri! </p>";
                 } else if ($_GET['error'] == 'usernameTaken') {
-                    echo "<p style='text-align: center; color: red'> This username is already taken! </p>";
+                    echo "<p style='text-align: center; color: red'> Acest username este deja folosit </p>";
                 }
             } else if (isset($_GET['signup'])) {
                 if ($_GET['signup'] == 'success') {
-                    echo "<p style='text-align: center; color: green'> Sign up successful! </p>";
+                    echo "<p style='text-align: center; color: green'> V-ati inregistrat cu succes! </p>";
                 }
             }
             ?>
